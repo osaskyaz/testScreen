@@ -22,7 +22,10 @@ function change(){
 btnNo.addEventListener('mouseover', step);
 
 function step(){
+    let number = Math.floor(Math.random()*500)+1;
+    let numb = Math.floor(Math.random()*500)+1;
     
-    
+    btnNo.style.right=number+"px";
+    btnNo.style.top=numb+"px";
 
 }
